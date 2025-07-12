@@ -15,15 +15,15 @@ ft_list[index] = 'World!'
 ft_list_from_tuple = list(ft_tuple)
 # Encontra o índice do elemento a ser substituído e faz a substituição
 index = ft_list_from_tuple.index('toto!')
-ft_list_from_tuple[index] = 'Rio de Janeiro!'
+ft_list_from_tuple[index] = 'Brasil!'
 # Converte a lista de volta em uma tupla
 ft_tuple = tuple(ft_list_from_tuple)
 
 # Remove o elemento no conjunto e adiciona outro
 # O conjunto não garante a ordem dos elementos
 # O conjunto não permite elementos duplicados
-ft_set.remove("tutu!")
 ft_set.add("Rio de Janeiro!")
+ft_set.remove("tutu!")
 
 # Modifica o dicionário
 ft_dict['Hello'] = '42Rio!'
