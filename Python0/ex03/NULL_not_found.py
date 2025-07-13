@@ -19,6 +19,7 @@ def NULL_not_found(object: any) -> int:
         print("Type not Found")
     return 1
 
+
 if __name__ == "__main__":
     """ Nothing = None
     Garlic = float("NaN")
@@ -32,8 +33,7 @@ if __name__ == "__main__":
     NULL_not_found(Fake)
     print(NULL_not_found("Brian")) """
 
-""" 
-Nothing: None <class 'NoneType'>$
+""" Nothing: None <class 'NoneType'>$
 Cheese: nan <class 'float'>$
 Zero: 0 <class 'int'>$
 Empty: <class 'str'>$

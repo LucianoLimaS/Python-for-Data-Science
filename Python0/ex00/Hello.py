@@ -1,7 +1,7 @@
 ft_list = ["Hello", "tata!"]
 ft_tuple = ("Hello", "toto!")
 ft_set = {"Hello", "tutu!"}
-ft_dict = {"Hello" : "titi!"}
+ft_dict = {"Hello": "titi!"}
 
 # Encontra o índice do elemento a ser substituído e faz a substituição
 # O método index() retorna o índice do primeiro elemento com o valor especificado
