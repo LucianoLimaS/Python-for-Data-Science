@@ -1,4 +1,12 @@
 def NULL_not_found(object: any) -> int:
+    """Checks for different types of "null" or "empty" values in Python.
+
+    Args:
+        object: The object to check.
+
+    Returns:
+        An integer value indicating the result of the check.
+    """
     type_name = type(object)
     if object is None:
         print(f"Nothing: {object} {type_name}")
@@ -9,7 +17,7 @@ def NULL_not_found(object: any) -> int:
     # Portanto, 0 e False são equivalentes em termos de valor booleano
     # No entanto, eles são de tipos diferentes: int e bool, respectivamente
     # por isso este código verifica se o objeto é um int e não é False
-    elif isinstance(object, int) and not(object is False) and object == 0:
+    elif isinstance(object, int) and not (object is False) and object == 0:
         print(f"Zero: {object} {type_name}")
     elif isinstance(object, str) and object == '':
         print(f"Empty: {type_name}")

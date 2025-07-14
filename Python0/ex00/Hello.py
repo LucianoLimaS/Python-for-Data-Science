@@ -4,13 +4,15 @@ ft_set = {"Hello", "tutu!"}
 ft_dict = {"Hello": "titi!"}
 
 # Encontra o índice do elemento a ser substituído e faz a substituição
-# O método index() retorna o índice do primeiro elemento com o valor especificado
+# O método index() retorna o índice do primeiro elemento com o valor 
+# especificado
 index = ft_list.index('tata!')
 ft_list[index] = 'World!'
 # Outra forma de substituir 'tata!' por 'World!' usando compreensão de lista
 # ft_list = ['World!' if item == 'tata!' else item for item in ft_list]
 
-# A tupla é imutável, então é necessário converter a tupla em uma lista para fazer a substituição
+# A tupla é imutável, então é necessário converter a tupla em uma lista
+# para fazer a substituição
 # Converte a tupla em uma lista
 ft_list_from_tuple = list(ft_tuple)
 # Encontra o índice do elemento a ser substituído e faz a substituição

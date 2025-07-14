@@ -1,4 +1,12 @@
 def all_thing_is_obj(obj: any) -> int:
+    """Prints the type of an object.
+
+    Args:
+        obj: The object to check.
+
+    Returns:
+        An integer value.
+    """
     type_name = type(obj).__name__[0].upper() + type(obj).__name__[1:]
     if isinstance(obj, (list, tuple, set, dict)):
         print(f"{type_name} : {type(obj)}")

@@ -5,6 +5,12 @@ argv = sys.argv
 
 
 def count_characters(text):
+    """Counts the number of upper, lower, punctuation, spaces, and digit
+    characters.
+
+    Args:
+        text: The text to analyze.
+    """
     upper = 0
     lower = 0
     punctuation = 0
@@ -35,6 +41,7 @@ def count_characters(text):
 
 
 def main():
+    """Analyzes text provided as a command-line argument or standard input."""
     if argc > 2:
         print("AssertionError: more than one argument is provided")
         exit(1)
